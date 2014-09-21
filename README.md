@@ -22,13 +22,16 @@ Getting It
     git clone https://github.com/visq/ALF-llvm.git
     pushd ALF-llvm/tools
 
+    #I have added the clang 3.4 into ALF-llvm, so we can build it directly. Notice that clang 3.2 cannot work since the LLVM version is 3.4. 
+
     # [ALF-llvm/tools/] clone clang (C/C++ frontend)
-    git clone http://llvm.org/git/clang.git
-    cd clang
+    #git clone http://llvm.org/git/clang.git
+    #cd clang
 
     # [ALF-llvm/tools/clang/] synchronize with the llvm version (currently: release 3.2)
-    git checkout remotes/origin/release_32 -b release_32
-    popd
+    #git checkout remotes/origin/release_32 -b release_32
+    #popd
+
 
 
 Building
